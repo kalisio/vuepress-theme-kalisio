@@ -1,0 +1,2 @@
+# kiosk
+Kalisio VuePress theme

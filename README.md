@@ -1,2 +1,2 @@
-# kiosk
-Kalisio VuePress theme
+# VuePress theme for Kalisio projects
+

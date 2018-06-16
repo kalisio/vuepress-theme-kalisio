@@ -1,22 +1,39 @@
 <template>
-  <carousel>
+  <carousel :autoplay="true" :autoplayHoverPause="true" :perPage="1" :navigationEnabled="true">
     <slide>
-      <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kalisio/kalisio-logo-256x112.png" style="width: 300px; max-width: 100%;" />
+      <a href="https://kalisio.com">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kalisio/kalisio-logo-w256.png" />
+      </a>
     </slide>
     <slide>
-      <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kaabah/kaabah-logo-256x112.png" style="width: 300px; max-width: 100%;" />
+       <a href="https://kalisio.github.io/kaabah/">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kaabah/kaabah-logo-w256.png" />
+      </a>
     </slide>
     <slide>
-      <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kargo/kargo-logo-256x112.png" style="width: 300px; max-width: 100%;" />      
+      <a href="https://kalisio.github.io/kargo/">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kargo/kargo-logo-w256.png" />
+      </a>
     </slide>
     <slide>
-      <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/weacast/weacast-logo-256x112.png" style="width: 300px; max-width: 100%;" />      
+      <a href="https://kalisio.gitbooks.io/krawler/">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/krawler/krawler-logo-w256.png" />
+      </a>
     </slide>
     <slide>
-      <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kdk/kdk-logo-256x112.png" style="width: 300px; max-width: 100%;" />      
+      <a href="https://weacast.gitbooks.io/weacast-docs/">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/weacast/weacast-logo-w256.png" />
+      </a>
     </slide>
     <slide>
-      <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/aktnmap/aktnmap-logo-256x112.png" style="width: 300px; max-width: 100%;" />      
+      <a href="https://kalisio.gitbooks.io/kalisio/">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kdk/kdk-logo-w256" />
+      </a>
+    </slide>
+    <slide>
+      <a href="https:/atknamp.com">
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/aktnmap/aktnmap-logo-w256" />
+      </a>
     </slide>
   </carousel>
 </template>

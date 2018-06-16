@@ -1,11 +1,9 @@
 <template>
-  KALISIO
+  <div>
+    KALISIO
+  </div>
 </template>
 
 <script>
-export default {
-  components: {
-    Kiosk
-  }
-}
+export default {}
 </script>

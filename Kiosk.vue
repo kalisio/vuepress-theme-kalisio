@@ -1,5 +1,5 @@
 <template>
-  <carousel :autoplay="true" :autoplayHoverPause="true" :perPage="1" :navigationEnabled="true">
+  <carousel :autoplay="true" :autoplayHoverPause="true" :perPage="1" :paginationEnabled="true">
     <slide>
       <a href="https://kalisio.com">
         <img src="https://s3.eu-central-1.amazonaws.com/kalisio-artwork/kalisio/kalisio-logo-w256.png" />

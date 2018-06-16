@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kalisio/kiosk/issues"
   },
-  "homepage": "https://github.com/kalisio/kiosk#readme"
+  "homepage": "https://github.com/kalisio/kiosk#readme",
+  "dependencies": {
+    "vue-carousel": "^0.8.1"
+  }
 }

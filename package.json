@@ -1,22 +1,22 @@
 {
-  "name": "vuepress-theme-vue",
-  "version": "1.0.3",
-  "description": "VuePress theme for official Vue projects",
+  "name": "vuepress-theme-kalisio",
+  "version": "0.0.1",
+  "description": "VuePress theme for Kalisio projects",
   "main": "Layout.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vuepress-theme-vue.git"
+    "url": "git+https://github.com/kalisio/kiosk.git"
   },
   "keywords": [
     "vue"
   ],
-  "author": "Evan You",
+  "author": "Kalisio team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/vuepress-theme-vue/issues"
+    "url": "https://github.com/kalisio/kiosk/issues"
   },
-  "homepage": "https://github.com/vuejs/vuepress-theme-vue#readme"
+  "homepage": "https://github.com/kalisio/kiosk#readme"
 }

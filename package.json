@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/kalisio/vuepress-theme-kalisio#readme",
   "dependencies": {
-    "vue-carousel": "^0.8.1"
+    "vue-awesome-swiper": "^3.1.3"
   }
 }

@@ -35,7 +35,7 @@
       </a>
     </slide>
     <slide>
-      <a href="https:/atknamp.com">
+      <a href="https:/aktnamp.com">
         <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/aktnmap/aktnmap-logo-black-128x128.png" />
       </a>
     </slide>

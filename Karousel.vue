@@ -2,7 +2,8 @@
   <carousel 
     :autoplay="true" 
     :autoplayHoverPause="true" 
-    :perPage="2">
+    :perPage="2"
+    :paginationEnabled="false">
     <slide>
       <a href="https://kalisio.com">
         <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kalisio/kalisio-logo-black-128x128.png" />

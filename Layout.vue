@@ -1,17 +1,17 @@
 <template>
   <Layout>
-    <Carousel slot="sidebar-top"/>
+    <Banner slot="sidebar-top"/>
   </Layout>
 </template>
 
 <script>
 import Layout from '@default-theme/Layout.vue'
-import Carousel from './Carousel.vue'
+import Banner from './Banner.vue'
 
 export default {
   components: {
     Layout,
-    Carousel
+    Banner
   }
 }
 </script>

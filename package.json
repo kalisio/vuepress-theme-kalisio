@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kalisio/kiosk.git"
+    "url": "git+https://github.com/kalisio/vuepress-theme-kalisio.git"
   },
   "keywords": [
     "vue"
@@ -16,9 +16,9 @@
   "author": "Kalisio team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kalisio/kiosk/issues"
+    "url": "https://github.com/kalisio/vuepress-theme-kalisio/issues"
   },
-  "homepage": "https://github.com/kalisio/kiosk#readme",
+  "homepage": "https://github.com/kalisio/vuepress-theme-kalisio#readme",
   "dependencies": {
     "vue-carousel": "^0.8.1"
   }

@@ -1,17 +1,17 @@
 <template>
   <Layout>
-    <Kiosk slot="sidebar-top"/>
+    <Karousel slot="sidebar-top"/>
   </Layout>
 </template>
 
 <script>
 import Layout from '@default-theme/Layout.vue'
-import Kiosk from './Kiosk.vue'
+import Karousel from './Karousel.vue'
 
 export default {
   components: {
     Layout,
-    Kiosk
+    Karousel
   }
 }
 </script>

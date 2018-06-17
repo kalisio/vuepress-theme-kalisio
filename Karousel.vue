@@ -2,22 +2,22 @@
   <carousel :autoplay="true" :autoplayHoverPause="true" :perPage="1" :paginationEnabled="true">
     <slide>
       <a href="https://kalisio.com">
-        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kalisio/kalisio-logo-256x256.png" />
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kalisio/kalisio-logo-black-256x256.png" />
       </a>
     </slide>
     <slide>
        <a href="https://kalisio.github.io/kaabah/">
-        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kaabah/kaabah-logo-256x256.png" />
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kaabah/kaabah-logo-black-256x256.png" />
       </a>
     </slide>
     <slide>
       <a href="https://kalisio.github.io/kargo/">
-        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kargo/kargo-logo-256x256.png" />
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kargo/kargo-logo-black-256x256.png" />
       </a>
     </slide>
     <slide>
       <a href="https://kalisio.gitbooks.io/krawler/">
-        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/krawler/krawler-logo-256x256.png" />
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/krawler/krawler-logo-black-256x256.png" />
       </a>
     </slide>
     <slide>
@@ -27,12 +27,12 @@
     </slide>
     <slide>
       <a href="https://kalisio.gitbooks.io/kalisio/">
-        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kdk/kdk-logo-256x256.png" />
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/kdk/kdk-logo-black-256x256.png" />
       </a>
     </slide>
     <slide>
       <a href="https:/atknamp.com">
-        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/aktnmap/aktnmap-logo-256x256.png" />
+        <img src="https://s3.eu-central-1.amazonaws.com/kalisioscope/aktnmap/aktnmap-logo-black-256x256.png" />
       </a>
     </slide>
   </carousel>

@@ -42,8 +42,6 @@
 </template>
 
 <script>
-import { swiper, swiperSlide } from "vue-awesome-swiper"
-
 export default {
   data () {
     return {
@@ -57,6 +55,9 @@ export default {
         }
       }
     }
+  },
+  mounted() {
+    import('vue-awesome-swiper')
   }
 }
 </script>

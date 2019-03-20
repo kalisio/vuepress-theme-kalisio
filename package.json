@@ -19,5 +19,7 @@
     "url": "https://github.com/kalisio/vuepress-theme-kalisio/issues"
   },
   "homepage": "https://github.com/kalisio/vuepress-theme-kalisio#readme",
-  "dependencies": {}
+  "dependencies": {
+    "mermaid": "^8.0.0"
+  }
 }

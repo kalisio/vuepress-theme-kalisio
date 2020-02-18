@@ -21,8 +21,10 @@
     "url": "https://github.com/kalisio/vuepress-theme-kalisio/issues"
   },
   "homepage": "https://github.com/kalisio/vuepress-theme-kalisio#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.3.0",
+    "@vuepress/plugin-pwa": "^1.3.0",
     "@vuepress/theme-default": "^1.3.0"
-  }
+  },
+  "devDependencies": {}
 }

@@ -6,7 +6,7 @@
 
 <script>
 import Layout from '@default-theme/Layout.vue'
-import Banner from './Banner.vue'
+import Banner from '../componentes/Banner.vue'
 
 export default {
   components: {

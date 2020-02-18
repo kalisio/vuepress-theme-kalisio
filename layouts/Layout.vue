@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ParentLayout from '@parent-theme/layouts/Layout.vue'
+
 import Banner from '@theme/components/Banner.vue'
 
 export default {

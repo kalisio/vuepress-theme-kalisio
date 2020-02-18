@@ -1,16 +1,17 @@
 <template>
-  <Layout>
+  <ParentLayout>
     <Banner slot="sidebar-top"/>
-  </Layout>
+  </ParentLayout>
 </template>
 
 <script>
-import Layout from '@vuepress/default-theme/Layout.vue'
+import ParentLayout from '@parent-theme/layouts/Layout.vue'
 import Banner from '../componentes/Banner.vue'
 
 export default {
+  name: 'Layout', 
   components: {
-    Layout,
+    ParentLayout,
     Banner
   }
 }

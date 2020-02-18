@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Layout from '@default-theme/Layout.vue'
+import Layout from '@vuepress/default-theme/Layout.vue'
 import Banner from '../componentes/Banner.vue'
 
 export default {

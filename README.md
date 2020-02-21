@@ -4,7 +4,7 @@ This is a simple [VuePress](https://vuepress.vuejs.org/) theme for Kalisio proje
 
 This theme extends the default VuePress theme in order to provides additional functionalities such as diagramming and mapping. Read this section to understand [theme inheritance](https://vuepress.vuejs.org/theme/inheritance.html#motivation).
 
-# Creating a diagram
+# Diagramming
 
 This theme provides an interface to add a [Mermaid](https://mermaid-js.github.io/mermaid/#/) diagram.
 **Mermaid** components can be used like:
@@ -23,7 +23,7 @@ graph TD
 
 # Mapping
 
-this theme provides an interface to add a [kano]([https://](https://kalisio.github.io/kano/) **iframe**.
+this theme provides an interface to add a [kano](https://kalisio.github.io/kano/) **iframe**.
 **Kano** component can be used like:
 
 ```md

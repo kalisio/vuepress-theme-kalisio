@@ -23,20 +23,20 @@ graph TD
 
 # Mapping
 
-this theme provides an interface to add a [kano](https://kalisio.github.io/kano/) **iframe**.
-**Kano** component can be used like:
+This theme provides an interface to add a [kano](https://kalisio.github.io/kano/) **iframe**.
+**Kano** components can be instantiated like:
 
 ```md
 <kano token="A-JSON-WEB-TOKEN" />
 ```
 
-Attributes are listed above:
+The tag handles the following attributes:
 
 | Attribute | Description |
 | --- | --- |
-| `source` | the url to the Kano website. By default, the value is `https://kano.dev.kalisio.xyz` |
-| `token` | the token to be used if you want to be authenticated automatically. By default, there is no token. |
-| `css-style` | The style to apply to the **iframe**. By default the value is `width: 100%; height: 80vh` |
+| `source` | the url to the Kano website. The default value is `https://kano.dev.kalisio.xyz` |
+| `token` | the token to be used if you want to be authenticated automatically. There is no default token and if you do not provide any token you have to authenticate yourself. |
+| `css-style` | The style to apply to the **iframe**. The default value is `width: 100%; height: 80vh` |
 
 
 

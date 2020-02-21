@@ -20,7 +20,7 @@ export default {
     },
     cssStyle: {
       type: String,
-      default: 'width: 100%; height: 60vh'
+      default: 'width: 100%; height: 50vh'
     }
   },
   created() {

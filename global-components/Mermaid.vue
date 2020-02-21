@@ -8,12 +8,12 @@
 export default {
   name: 'mermaid',
   mounted() {
-    import("mermaid/dist/mermaid").then(m => {
+    import('mermaid/dist/mermaid').then(m => {
       m.initialize({
         startOnLoad: true
-      });
-      m.init();
-    });
+      })
+      m.init()
+    })
   }
-};
+}
 </script>

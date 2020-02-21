@@ -1,29 +1,40 @@
 
 
 <template>
-  <iframe 
-    id="kano" 
-    title="Kano" 
-    allow="geolocation *" 
-    allowfullscreen style="width: 100%; height: 60vh" 
-    frameBorder="0"
-    src="https://kano.test.kalisio.xyz">
-  </iframe>
+  <div>
+    <iframe id="kano" title="Kano" allow="geolocation *" allowfullscreen frameBorder="0" :style=cssStyle :src=source></iframe>
+  </div>
 </template>
 
 <script>
-//import postRobot from 'post-robot'
-
 export default {
   name: 'kano',
-  mounted() {
-    /*this.kano = document.getElementById('kano').contentWindow
-    this.component = 'map'
-    /*postRobot.on('kano-ready', () => {
-      postRobot.send(kano, 'setLocalStorage', {
-        'kano-jwt': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJkZXYua2FsaXNpby54eXoiLCJpc3MiOiJrYWxpc2lvIiwiZXhwIjoxNTg0MDE1Mjg0fQ.oOPo_7lPMFgH6dBUtSnNs3w4h-DwwCSLdg9yMF0YU18'
-      }).then(_ => postRobot.send(this.kano, this.component))
-    })*/
+  props: {
+    source: {
+      type: String,
+      default: 'https://kano.dev.kalisio.xyz'
+    },
+    token: {
+      type: String,
+      default: ''
+    },
+    cssStyle: {
+      type: String,
+      default: 'width: 100%; height: 80vh'
+    }
+  },
+  created() {
+    if (typeof postRobot === 'undefined') {
+      let postRobotScript = document.createElement('script')
+      postRobotScript.setAttribute('src',"https://cdn.jsdelivr.net/npm/post-robot@10.0.10/dist/post-robot.min.js")
+      postRobotScript.onload = () => {
+			  postRobot.on('kano-ready', () => {
+          const kano = document.getElementById('kano').contentWindow
+          if (this.jwt !== '') postRobot.send(kano, 'setLocalStorage', { 'kano-jwt': this.token })
+        })
+      }
+      document.head.appendChild(postRobotScript)
+    }
   }
-};
+}
 </script>

@@ -23,7 +23,7 @@ export default {
       default: 'width: 100%; height: 50vh'
     }
   },
-  mounted() { 
+  beforeMount () { 
     // see: https://vuepress.vuejs.org/guide/using-vue.html#browser-api-access-restrictions
     if (typeof postRobot === 'undefined') {
       let postRobotScript = document.createElement('script')

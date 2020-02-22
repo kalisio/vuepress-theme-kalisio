@@ -23,7 +23,8 @@ export default {
       default: 'width: 100%; height: 50vh'
     }
   },
-  created() {
+  mounted() { 
+    // see: https://vuepress.vuejs.org/guide/using-vue.html#browser-api-access-restrictions
     if (typeof postRobot === 'undefined') {
       let postRobotScript = document.createElement('script')
       postRobotScript.setAttribute('src',"https://cdn.jsdelivr.net/npm/post-robot@10.0.10/dist/post-robot.min.js")

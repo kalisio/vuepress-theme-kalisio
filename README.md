@@ -2,7 +2,13 @@
 
 This is a simple [VuePress](https://vuepress.vuejs.org/) theme for Kalisio projects.
 
-This theme extends the default VuePress theme in order to provides additional functionalities such as diagramming and mapping. Read this section to understand [theme inheritance](https://vuepress.vuejs.org/theme/inheritance.html#motivation).
+This theme extends the default **VuePress** theme in order to provides additional functionalities such as diagramming and mapping. Read this section to understand [theme inheritance](https://vuepress.vuejs.org/theme/inheritance.html#motivation).
+
+In addition, the theme includes the following plugins:
+* [back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)
+* [pwa](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
+* [serve](https://github.com/vuepress/vuepress-plugin-serve)
+* [export](https://github.com/ulivz/vuepress-plugin-export)
 
 ## Using the components
 

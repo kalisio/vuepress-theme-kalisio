@@ -1,6 +1,6 @@
 <template>
   <p align="center">
-    <a href="https://kalisio.com">
+    <a :href="linkUrl">
 	    <img :src="imageSource" />
     </a>
 	  <br />
@@ -21,19 +21,27 @@ export default {
     title: {
       type: String,
       default: 'Unleashing the potential of spatial information'
+    },
+    link: {
+      type: String,
+      default: 'https://kalisio.com'
     }
   },
   data () {
     return {
       imageSource: this.image,
-      sloganContent: this.slogan
+      sloganContent: this.slogan,
+      linkUrl: this.link
     }
   },
   created () {
     if (this.$site.themeConfig.banner) {
+      console.log(this.$site.themeConfig.banner)
       if (this.$site.themeConfig.banner.image) this.imageSource = this.$site.themeConfig.banner.image
       if (this.$site.themeConfig.banner.slogan) this.sloganContent = this.$site.themeConfig.banner.slogan
+      if (this.$site.themeConfig.banner.link) this.linkUrl = this.$site.themeConfig.banner.link
     }
+    console.log(this.linkUrl)
   }
 }
 </script>

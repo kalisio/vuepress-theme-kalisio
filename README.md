@@ -44,14 +44,15 @@ The tag handles the following attributes:
 
 ### Overriding the **Banner**
 
-The **Banner** component provides two props, `image` and `slogan`, that allows you to override the default values which are respectively our logo and our slogan.
+The **Banner** component provides two props, `image`, `slogan` and `link`, that allows you to override the default values which are respectively our logo, our slogan and the url to our website.
 
 In your `config.js` file, add the following object in the `themeConfig` object:
 
 ```js
 banner: {
   image: 'path to your image',
-  slogan: 'your slogan'
+  slogan: 'your slogan',
+  link: 'your url'  // you can also use '#' to provide a null link
 }
 ```
 

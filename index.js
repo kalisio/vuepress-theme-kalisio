@@ -5,8 +5,6 @@ module.exports = {
     ['@vuepress/pwa', {
       serviceWorker: true,
       updatePopup: true
-    }],
-    ['vuepress-plugin-serve'],
-    ['vuepress-plugin-export']
+    }]
   ]
 }

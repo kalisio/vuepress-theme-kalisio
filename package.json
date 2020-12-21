@@ -26,15 +26,16 @@
     "release:patch": "npm run changelog -- -p && git add CHANGELOG.md && git commit -m \"Updated CHANGELOG.md [skip ci]\" && git push && npm version --force patch",
     "postversion": "git push origin --tags"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-pwa": "^1.7.1",
-    "@vuepress/theme-default": "^1.7.1",
-    "generate-changelog": "^1.8.0",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "vuepress-plugin-kano": "https://github.com/kalisio/vuepress-plugin-kano#v0.1.0",
     "vuepress-plugin-mermaidjs": "^1.8.1"
+  },
+  "devDependencies": {
+    "@vuepress/theme-default": "^1.7.1",
+    "generate-changelog": "^1.8.0"
   }
 }

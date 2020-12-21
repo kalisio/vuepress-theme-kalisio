@@ -6,7 +6,7 @@ This theme extends the default **VuePress** theme in order to provides additiona
 
 In addition, the theme includes the following plugins:
 * [back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)
-* [pwa](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
+* [paw](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
 * [kano](https://github.com/kalisio/vuepress-plugin-kano)
 * [mermaid.js](https://github.com/eFrane/vuepress-plugin-mermaidjs)
 

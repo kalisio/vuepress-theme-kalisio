@@ -1,9 +1,11 @@
 <template>
-  <a target="_blank" :href="url">{{ text }}<i class="las la-external-link-square-alt"></i></a>
+  <a target="_blank" :href="url">
+    {{ text }}
+    <i class="las la-external-link-square-alt"></i>
+  </a>
 </template>
 
 <script>
-
 export default {
   name: 'template-url',
   props: {

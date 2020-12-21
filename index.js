@@ -5,6 +5,7 @@ module.exports = {
     ['@vuepress/pwa', {
       serviceWorker: true,
       updatePopup: true
-    }]
+    }],
+    ['vuepress-plugin-kano']
   ]
 }

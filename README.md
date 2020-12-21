@@ -7,31 +7,14 @@ This theme extends the default **VuePress** theme in order to provides additiona
 In addition, the theme includes the following plugins:
 * [back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)
 * [pwa](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
-* [serve](https://github.com/vuepress/vuepress-plugin-serve)
-* [export](https://github.com/ulivz/vuepress-plugin-export)
+* [kano](https://github.com/kalisio/vuepress-plugin-kano)
+* [mermaid.js](https://github.com/eFrane/vuepress-plugin-mermaidjs)
 
 ## Using the components
 
-### Diagramming
+### Template URL
 
-This theme provides an interface to add a [Mermaid](https://mermaid-js.github.io/mermaid/#/) diagram.
-**Mermaid** components can be used like:
-
-```md
-<mermaid>
-graph TD
-  A[Cool] -->|Get money| B(Go shopping)
-  B --> C{Let me}
-  C -->|Two| D[Laptop]
-  C -->|Two| E[iPhone]
-  C -->|Three| F[Car]
-  C -->|Four| F[Mac]
-</mermaid>
-```
-
-### Mapping
-
-This theme includes the [Kano](https://github.com/kalisio/vuepress-theme-kalisio) vuepress plugin.
+_TO DO_
 
 ## Configuring the theme
 

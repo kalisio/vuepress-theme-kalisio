@@ -6,6 +6,7 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true
     }],
-    ['vuepress-plugin-kano']
+    ['vuepress-plugin-kano'],
+    ['vuepress-plugin-mermaidjs']
   ]
 }

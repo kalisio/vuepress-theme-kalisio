@@ -31,20 +31,7 @@ graph TD
 
 ### Mapping
 
-This theme provides an interface to add a [kano](https://kalisio.github.io/kano/) **iframe**.
-**Kano** components can be instantiated like:
-
-```md
-<kano token="A-JSON-WEB-TOKEN" />
-```
-
-The tag handles the following attributes:
-
-| Attribute | Description |
-| --- | --- |
-| `source` | the url to the Kano website. The default value is `https://kano.dev.kalisio.xyz` |
-| `token` | the token to be used if you want to be authenticated automatically. There is no default token and if you do not provide any token you have to authenticate yourself. |
-| `css-style` | The style to apply to the **iframe**. The default value is `width: 100%; height: 50vh` |
+This theme includes the [Kano](https://github.com/kalisio/vuepress-theme-kalisio) vuepress plugin.
 
 ## Configuring the theme
 

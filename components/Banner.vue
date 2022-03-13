@@ -1,12 +1,15 @@
 <template>
   <p align="center">
-    <a :href="linkUrl">
+    <a :href="link">
 	    <img :src="imageSource" />
     </a>
 	  <br />
-	  <i v-if="sloganContent">
-      <small>{{sloganContent}}</small>
+	  <i v-if="slogan">
+      <small>{{slogan}}</small>
     </i>
+	  <i v-if="version">
+      <small>{{version}}</small>
+    </i>    
   </p>
 </template>
 
@@ -30,15 +33,15 @@ export default {
   data () {
     return {
       imageSource: this.image,
-      sloganContent: this.slogan,
-      linkUrl: this.link
+      slogan: this.slogan,
+      link: this.link
     }
   },
   created () {
     if (this.$site.themeConfig.banner) {
       if (this.$site.themeConfig.banner.image) this.imageSource = this.$site.themeConfig.banner.image
-      if (this.$site.themeConfig.banner.slogan) this.sloganContent = this.$site.themeConfig.banner.slogan
-      if (this.$site.themeConfig.banner.link) this.linkUrl = this.$site.themeConfig.banner.link
+      if (this.$site.themeConfig.banner.slogan) this.slogan = this.$site.themeConfig.banner.slogan
+      if (this.$site.themeConfig.banner.link) this.link = this.$site.themeConfig.banner.link
     }
 
   }

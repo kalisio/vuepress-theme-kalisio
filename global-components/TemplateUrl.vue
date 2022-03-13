@@ -16,10 +16,6 @@ export default {
     urlTemplate: {
       type: String,
       required: true
-    },
-    jwt: {
-      type: Boolean,
-      default: true
     }
   },
   data () {
@@ -35,6 +31,7 @@ export default {
     let context = { moment }
     // Add any access token
     context.jwt = this.$site.themeConfig.jwt
+    context.domain = this.$site.themeConfig.domain
     this.url = compiler(context)
   }
 }

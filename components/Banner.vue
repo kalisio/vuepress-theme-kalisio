@@ -17,20 +17,6 @@
 <script>
 export default {
   name: 'banner',
-  props: {
-    image: {
-      type: String,
-      default: 'https://s3.eu-central-1.amazonaws.com/kalisioscope/kalisio/kalisio-logo-black-256x84.png'
-    },
-    title: {
-      type: String,
-      default: 'Unleashing the potential of spatial information'
-    },
-    link: {
-      type: String,
-      default: 'https://kalisio.com'
-    }
-  },
   data () {
     return {
       image: undefined,

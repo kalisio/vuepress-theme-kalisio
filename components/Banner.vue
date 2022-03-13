@@ -7,6 +7,7 @@
 	  <i v-if="slogan">
       <small>{{slogan}}</small>
     </i>
+    <br />
 	  <i v-if="version">
       <small>{{version}}</small>
     </i>    

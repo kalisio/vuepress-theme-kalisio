@@ -1,6 +1,6 @@
 <template>
   <p align="center">
-    <a :href="link">
+    <a  v-if="image" :href="link">
 	    <img :src="image" />
     </a>
 	  <br />
@@ -32,15 +32,17 @@ export default {
   },
   data () {
     return {
-      image: this.image,
-      slogan: this.slogan,
-      link: this.link
+      image: undefined,
+      slogan: undefined,
+      version: undefined,
+      link: '#'
     }
   },
   created () {
     if (this.$site.themeConfig.banner) {
       if (this.$site.themeConfig.banner.image) this.image = this.$site.themeConfig.banner.image
       if (this.$site.themeConfig.banner.slogan) this.slogan = this.$site.themeConfig.banner.slogan
+      if (this.$site.themeConfig.banner.version) this.version = this.$site.themeConfig.banner.version
       if (this.$site.themeConfig.banner.link) this.link = this.$site.themeConfig.banner.link
     }
 

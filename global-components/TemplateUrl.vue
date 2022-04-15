@@ -26,7 +26,6 @@ export default {
   async mounted() {
     const _ = await import('lodash')
     const moment = await import('moment')
-    
     const compiler = _.template(this.urlTemplate)
     let context = { moment }
     // Add any access token

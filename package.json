@@ -2,11 +2,12 @@
   "name": "vuepress-theme-kalisio",
   "version": "0.1.0",
   "description": "VuePress theme for Kalisio projects",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kalisio/vuepress-theme-kalisio.git"
   },
+  "main": "index.js",
+  "type": "module",    
   "keywords": [
     "vue",
     "vuepress",
@@ -20,11 +21,9 @@
   "homepage": "https://github.com/kalisio/vuepress-theme-kalisio#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "changelog": "changelog -x build,ci,chore,docs,other,perf,refactor,revert,style,test",
-    "release:major": "npm run changelog -- -M && git add CHANGELOG.md && git commit -m \"updated CHANGELOG.md [skip ci]\" && git push && npm version --force major",
-    "release:minor": "npm run changelog -- -m && git add CHANGELOG.md && git commit -m \"Updated CHANGELOG.md [skip ci]\" && git push && npm version --force minor",
-    "release:patch": "npm run changelog -- -p && git add CHANGELOG.md && git commit -m \"Updated CHANGELOG.md [skip ci]\" && git push && npm version --force patch",
-    "postversion": "git push origin --tags"
+    "release:major": "npm version --force major",
+    "release:minor": "npm version --force minor",
+    "release:patch": "npm version --force patch"
   },
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
@@ -35,7 +34,6 @@
     "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "devDependencies": {
-    "@vuepress/theme-default": "^1.7.1",
-    "generate-changelog": "^1.8.0"
+    "@vuepress/theme-default": "^1.7.1"
   }
 }
